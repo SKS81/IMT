@@ -1,3 +1,5 @@
+package my.idea.list;
+
 public class BmiService {
 
     public float calculate(float weight, float height) {

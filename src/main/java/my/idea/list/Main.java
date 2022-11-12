@@ -1,3 +1,5 @@
+package my.idea.list;
+
 import java.util.Scanner;
 
 public class Main {
