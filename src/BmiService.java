@@ -1,10 +1,10 @@
 public class BmiService {
 
-    public double calculate(double weight, double height) {
+    public float calculate(float weight, float height) {
 
-        double temp = (height * height); // рост в квадрате
-        double imt = (weight / temp); // расчёт ИМТ
-        return imt; // вывод результата
+        float temp = (height * height);
+        float imt = (weight / temp);
+        return imt;
 
     }
 
