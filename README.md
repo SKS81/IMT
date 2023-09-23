@@ -1,3 +1,5 @@
+## Status [![Build status](https://ci.appveyor.com/api/projects/status/m3gifjsre0anjyax/branch/main?svg=true)](https://ci.appveyor.com/project/SKS81/imt/branch/main)
+***
 ## Общие скрины работы приложения:
 ![Общий скрин работы программы](https://github.com/SKS81/IMT/blob/main/Res/Scr.JPG)
 ***
