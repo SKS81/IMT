@@ -39,7 +39,6 @@
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.5</version>
-
                 <executions>
                     <execution>
                         <id>prepare-agent</id>
@@ -48,7 +47,6 @@
                             <goal>prepare-agent</goal>
                         </goals>
                     </execution>
-
                     <execution>
                         <id>report</id>
                         <phase>verify</phase>
@@ -56,16 +54,13 @@
                             <goal>report</goal>
                         </goals>
                     </execution>
-
                     <execution>
                         <id>check</id>
                         <goals>
                             <goal>check</goal>
                         </goals>
                     </execution>
-
                 </executions>
-
                 <configuration>
                     <rules>
                         <rule>
@@ -73,13 +68,12 @@
                                 <limit>
                                     <counter>BRANCH</counter>
                                     <value>COVEREDRATIO</value>
-                                    <minimum>0%</minimum>
+                                    <minimum>16%</minimum>
                                 </limit>
                             </limits>
                         </rule>
                     </rules>
                 </configuration>
-
             </plugin>
 
             <plugin>
@@ -89,9 +83,6 @@
                 <configuration>
                     <includeFilterFile>spotbugs-security-include.xml</includeFilterFile>
                     <excludeFilterFile>spotbugs-security-exclude.xml</excludeFilterFile>
-
-
-
                 </configuration>
                 <dependencies>
                     <dependency>
@@ -102,9 +93,6 @@
                 </dependencies>
             </plugin>
 
-
-
         </plugins>
     </build>
-
 </project>
